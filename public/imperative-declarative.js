@@ -20,3 +20,6 @@ console.log(imperativeDoubledEvenNumbers);
 
 const declarativeDoubledEvenNumbers = declarativeDoubleEvenNumbers(numbers);
 console.log(declarativeDoubledEvenNumbers);
+
+const output = item => console.log(item);
+numbers.forEach(output);
